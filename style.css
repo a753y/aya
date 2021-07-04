@@ -1,0 +1,359 @@
+@charset "utf-8";
+
+html{
+    box-sizing: border-box;
+}
+
+*,::before,::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family:Hiragino Kaku Gothic ProN;
+    width: 100%;
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* ヘッダー */
+
+.header_container{
+    display: flex;
+    margin-top:32px;
+    margin-left:30px;
+    margin-right:31px;
+    margin-bottom:52px;
+}
+
+.list_nav_header{
+    display: flex;
+    margin-left: 523px;
+    height: 67px;
+    white-space: nowrap;
+}
+
+.list_nav_header li{
+    display:flex;
+    align-items: center;
+    margin-left:30px;
+
+}
+
+.list_nav_header a{
+    display: inline-block;
+    color:#707070;
+    font-size:15px;
+}
+
+
+.area_logo_header{
+    width:369px;
+    height:67px;
+}
+
+
+/* メイン */
+.main_top{
+    background-image:url(./img/top.jpg);
+    width:100%;
+    height: 611px;
+    margin-bottom:93px;
+
+}
+
+
+
+
+.main_list{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+.list_nav_main{
+    display: flex;
+}
+
+.list_nav_main img{
+    margin-bottom: 23px;
+
+}
+
+
+
+.list-nav-main li{
+    margin-left: 38px;
+    color:#3B3B3B;
+    /* border */
+}
+
+/* develop */
+.main_develop_content1{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.develop{
+    font-size:26px;
+    margin-left:339px;
+    margin-bottom: 40px;
+    color :#3B3B3B;
+
+}
+
+.main_develop_img1 img{
+    width: 630px;
+    height: 400px;
+    margin-left: 35px;
+    margin-right: 45px;
+}
+
+.main-develop-textarea1{
+    width:684px;
+    height: 400px;
+    margin-right: 51px;
+}
+
+.main_develop-content2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 206px;
+}
+
+.main-develop-img2 img{
+    width:630px;
+    height:400px;
+
+}
+
+.main_develop-content2{
+    margin-right: 48px;
+    margin-left: 46px;
+}
+
+.main-develop-textarea2{
+    width:684px;
+    height: 400px;
+    margin-right: 42px;
+
+}
+
+.area_home_news{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 170px;
+}
+
+.main_news h3{
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.list_news1{
+    display: flex;
+    border-bottom: solid 1px #DEDEDE;
+
+}
+.list_news2{
+    display: flex;
+    border-bottom: solid 1px #DEDEDE;
+    padding-top: 20px;
+}
+.list_news3{
+    display: flex;
+    border-bottom: solid 1px #DEDEDE;
+    padding-top: 20px;
+}
+.list_news4{
+    display: flex;
+    border-bottom: solid 1px #DEDEDE;
+    padding-top: 20px;
+}
+.list_news5{
+    display: flex;
+    border-bottom: solid 1px #DEDEDE;
+    padding-top: 20px;
+}
+
+.main_news_text1{
+    margin-left: 60px;
+    padding-bottom: 20px;
+}
+.main_news_text2{
+    margin-left: 60px;
+    padding-bottom: 20px;
+
+}
+.main_news_text3{
+    margin-left: 60px;
+    padding-bottom: 20px;
+
+}
+.main_news_text4{
+    margin-left: 60px;
+    padding-bottom: 20px;
+
+}
+.main_news_text5{
+    margin-left: 60px;
+    padding-bottom: 20px;
+
+}
+
+/* バナー */
+
+.main_banner{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.main_banner p{
+    font-size:35px;
+    color: #3B3B3B;
+}
+
+.banner1{
+    border:solid 1px #707070;
+    padding-top:44px;
+    padding-right: 147px;
+    padding-bottom: 43px;
+    padding-left: 148px;
+}
+.banner2{
+    border:solid 1px #707070;
+    padding-top:44px;
+    padding-right: 147px;
+    padding-bottom: 43px;
+    padding-left: 148px;
+}
+.banner3{
+    border:solid 1px #707070;
+    padding-top:44px;
+    padding-right: 147px;
+    padding-bottom: 43px;
+    padding-left: 148px;
+}
+
+/* フッター */
+/* .footer_area_info{
+    margin-top: 207px;
+    height: 289px;
+    background-color: #EBEBEB;
+    border: solid 1px #707070;
+
+}
+
+.company{
+    padding-top: 80px;
+    padding-left: 263px;
+    padding-bottom: 33px;
+}
+
+.footer_company_info dd{
+    padding-left: 263px;
+    padding-bottom: 16px;
+}
+
+.list_nav_bottom{
+    display: flex;
+    padding-right: 263px;
+
+}
+
+.list_nav_bottom li{
+    margin-left: 30px;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+.footer_bottom{
+    height:79px;
+    background-color: #6A6A6A;
+}
+
+.footer_bottom p{
+    color:#FFFFFF;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79px;
+}
+
+.nav_footer{
+    display:flex;
+    justify-content: flex-end;
+
+} */
+
+.footer_area{
+    width:100%;
+    height:289px;
+    background-color: #EBEBEB;
+    margin-top: 206px;
+    display: flex;
+
+}
+
+.company{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.footer_company_info dd{
+    font-size: 13px;
+    margin-bottom: 16px;
+    white-space: nowrap;
+}
+
+.footer_company_info{
+    margin-top:80px ;
+    margin-left: 263px;
+}
+
+.list_nav_footer{
+    display: flex;
+    margin-right: 263px;
+}
+
+.list_nav_footer li{
+    margin-top: 138px;
+}
+
+.list_nav_footer{
+    margin-left: 297px;
+}
+
+.list_nav_footer a{
+    color:#707070
+}
+
+.list_nav_footer li{
+    margin-left: 30px;
+    white-space: nowrap;
+}
+
+.footer_bottom{
+    background-color: #6A6A6A;
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_bottom p{
+    color: #FFFFFF;
+    font-size: 12px;
+}
