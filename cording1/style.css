@@ -54,6 +54,12 @@ a{
     height:67px;
 }
 
+.list_nav_header_btn:hover{
+    text-decoration: underline;
+    background-color: #ffc9d7;
+
+}
+
 
 /* メイン */
 .main_top{
@@ -62,6 +68,8 @@ a{
     height: 611px;
     margin-bottom:93px;
     position: relative;
+    background-repeat: no-repeat;
+    background-size:cover;
 
 }
 .are_main_top_font{
@@ -82,9 +90,6 @@ a{
     height: 21px;
 }
 
-
-.main_list{
-}
 
 .list_nav_main{
     display: flex;
@@ -115,13 +120,15 @@ a{
 
 /* develop */
 .main_develop_content1{
+    width:1314px;
     display: flex;
+    justify-content: space-around;
     margin-bottom: 150px;
 }
 
 .develop{
     font-size:26px;
-    margin-left:339px;
+    margin-left:310px;
     margin-bottom: 40px;
     color :#3B3B3B;
 
@@ -143,6 +150,7 @@ a{
 .main_develop-content2{
     display: flex;
     flex-direction: row-reverse;
+    width:1314px;
     margin-bottom: 206px;
 }
 
@@ -179,28 +187,31 @@ a{
 
 }
 
-.list_news1{
+.list_news_btn{
     display: flex;
-    border-bottom: solid 1px #DEDEDE;
+}
 
+.list_news_btn:hover{
+    text-decoration: underline;
+    background-color: #ffc9d7;
+}
+
+.list_news1{
+    border-bottom: solid 1px #DEDEDE;
 }
 .list_news2{
-    display: flex;
     border-bottom: solid 1px #DEDEDE;
     padding-top: 20px;
 }
 .list_news3{
-    display: flex;
     border-bottom: solid 1px #DEDEDE;
     padding-top: 20px;
 }
 .list_news4{
-    display: flex;
     border-bottom: solid 1px #DEDEDE;
     padding-top: 20px;
 }
 .list_news5{
-    display: flex;
     border-bottom: solid 1px #DEDEDE;
     padding-top: 20px;
 }
@@ -266,6 +277,10 @@ a{
     padding-left: 148px;
 }
 
+.link_banner:hover{
+    background-color: #ffc9d7;
+}
+
 /* フッター */
 /* .footer_area_info{
     margin-top: 207px;
@@ -324,8 +339,6 @@ a{
     height:289px;
     background-color: #EBEBEB;
     margin-top: 206px;
-    display: flex;
-
 }
 
 .company{
@@ -342,24 +355,20 @@ a{
 .footer_info_area{
     width: 874px;
     margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 87px
 }
 
-.footer_company_address{
-    margin-top:80px ;
-}
+
 
 .list_nav_footer{
     display: flex;
-    margin-right: 263px;
 }
 
-.list_nav_footer li{
-    margin-top: 138px;
-}
 
-.list_nav_footer{
-    margin-left: 297px;
-}
 
 .list_nav_footer a{
     color:#707070
